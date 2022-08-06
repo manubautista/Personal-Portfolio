@@ -2,28 +2,27 @@ import React from "react";
 import { Formik, Form, Field } from "formik";
 import AlertForm from "./AlertForm";
 
-
 const ContactForm = () => {
-
   return (
     <>
-      <Formik initialValues= {{
-        name:'',
-        email:'',
-        message:''
-      }}
+      <Formik
+        initialValues={{
+          name: "",
+          email: "",
+          message: "",
+        }}
         validate={(values) => {
           const errors = {};
-            if (!values.name) {
-              errors.name = "Por favor, indique su nombre";
-            } else if (!values.email) {
-              errors.email = "Campo obligatorio";
-            } else if (
-              !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-            ) {
-              errors.email = "Dirección de mail invalida";
-            } else if (!values.message) {
-              errors.message = "El mensaje no puede enviarse vacio"
+          if (!values.name) {
+            errors.name = "Please, type your name here";
+          } else if (!values.email) {
+            errors.email = "Obligatory field";
+          } else if (
+            !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
+          ) {
+            errors.email = "Invalid Email adress";
+          } else if (!values.message) {
+            errors.message = "Type something!";
           }
           return errors;
         }}
@@ -35,45 +34,32 @@ const ContactForm = () => {
           }, 400);
         }}
       >
-       
-        {({
-          values,
-          errors,
-          touched,
-          isSubmitting,
-        }) => (
-
+        {({ values, errors, touched, isSubmitting }) => (
           <Form>
+            <Field name="name" type="name" placeholder="Name" />
+            {errors.name && touched.name && <AlertForm error={errors.name} />}
 
-               <Field 
-               name="name"
-               type="name"
-               placeholder="Escriba su nombre aqui"
-                /> 
-              {errors.name && touched.name && <AlertForm error={errors.name}/>}
+            <Field name="email" type="email" placeholder="Your e-mail adress" />
+            {errors.email &&
+              touched.email && <AlertForm error={errors.email} />}
 
-               <Field 
-               name="email"
-               type="email"
-               placeholder="Ingrese una direccion de e-mail"
-                /> 
-              {errors.email && touched.email && <AlertForm error={errors.email}/>}
+            <Field
+              className="textarea"
+              name="message"
+              type="message"
+              placeholder="Message"
+            />
+            {errors.message &&
+              touched.message && <AlertForm error={errors.message} />}
 
-               <Field 
-               className="textarea"
-               name="message"
-               type="message"
-               placeholder="Escriba aqui su mensaje"
-                /> 
-              {errors.message && touched.message && <AlertForm error={errors.message}/>}
+            <button type="submit" disabled={isSubmitting} className="submit">
+              Send
+            </button>
+          </Form>
+        )}
+      </Formik>
+    </>
+  );
+};
 
-          <button type="submit" disabled={isSubmitting} className="submit">
-             Enviar
-           </button>
-         </Form>
-       )}
-     </Formik>
-   </>
- )};
-      
 export default ContactForm;
