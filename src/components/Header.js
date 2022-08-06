@@ -20,9 +20,6 @@ export default class Header extends Component {
          </nav>
 
          <div className="row banner">
-            <div><video autoPlay loop muted playsInline>
-               <source src='images' type='video/mp4'></source>
-            </video></div>
             <div className="banner-text">
                <h1 className="responsive-headline">I'm {resumeData.name}.</h1>
                <h2 className="responsive-headline">I'm a {resumeData.role}</h2>

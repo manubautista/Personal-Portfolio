@@ -31,19 +31,19 @@ export default  class Resume extends Component {
          </div>
         <div className="row work">
             <div className="three columns header-col">
-               <h1><span>Work Experience</span></h1>
+               <h1><span>Certifications</span></h1>
             </div>
 
             <div className="nine columns main-col">
               {
-                resumeData.work && resumeData.work.map((item) => {
+                resumeData.certifications && resumeData.certifications.map((item) => {
                   return(
                     <div className="row item">
                        <div className="twelve columns">
-                          <h3>{item.CompanyName}</h3>
+                          <a href={item.link} target="_blank"  id='cert'><h3>{item.CompanyName}</h3>
                           <p className="info">
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.startData} - {item.endData}</em></p>
+                          <span>&bull;</span> <em className="date">{item.startData} - {item.endData}</em></p></a>
 
                        </div>
 

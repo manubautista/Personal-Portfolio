@@ -36,10 +36,10 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 100px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/IMG_20191203_123453045_HDR.jpg) no-repeat top center;
+   background: #161415 url(../images/tenor.gif) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -103,7 +103,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #CC5200; }
+header .social li a:hover { color: #00CCCC; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -125,7 +125,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #CC5200; }
+header .scrolldown a:hover { color: #00CCCC; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -187,7 +187,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #00CCCC; }
 
 
 /* ------------------------------------------------------------------ */
@@ -198,12 +198,12 @@ ul#nav li.current a { color: #F06000; }
    background: #2B2B2B;
    padding: 150px;
    overflow: hidden;
-   height: 80vh;
+   height: 100%;
 }
 
 
 #about h2 {
-   font: 40px/40px 'opensans-bold', sans-serif;
+   font: 50px/50px 'opensans-bold', sans-serif;
    color: rgb(255, 255, 255);
    margin-bottom: 12px;
    text-shadow: 0 0 10px #a4a4a5, 0 0 20px #7c649d, 0 0 30px #39398b;
@@ -273,16 +273,22 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
-
+/* #resume a, #resume a:visited  { color: #11ABB0; }
+#resume a:hover, #resume a:focus { color: #ad1414; } */
+#cert h3{
+   transition: 0.5s;
+}
+#cert h3:hover{
+   color: #00CCCC;
+   transform: scale(1.05);
+}
 #resume h1 {
    font: 18px/24px 'Ubuntu', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #00CCCC;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -873,10 +879,10 @@ call-to-action .button {
    width: 65%;
 }
 #contact button.submit:hover {
-	background: #CC5200;
+	background: #00CCCC;
 }
 #contact span.required {
-	color: #CC5200;
+	color: #00CCCC;
 	font-size: 10px;
    margin: 0px;
 }
@@ -973,7 +979,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #00CCCC;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -1004,5 +1010,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color:  #F06000; }
+#go-top a:hover { background-color:  #00CCCC; }
 

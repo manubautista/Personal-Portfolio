@@ -41,53 +41,67 @@ let resumeData = {
   ],
   education: [
     {
-      UniversityName: "Numen Academy",
-      specialization: "Full Stack Web Development",
-      startData: "March 2022",
-      endData: "September 2022",
-    },
-    
-    {
-      UniversityName: "UTN e-Learning",
-      specialization: "Full Stack Web Development Expert",
-      startData: "March 2022",
+      UniversityName: "Rest API's Development Bootcamps",
+      specialization: "Working with React, Node, Express, AXIOS and Sequelize",
+      startData: "April 2022",
       endData: "June 2022",
     },
     {
-      UniversityName: "freeCodeCamp",
-      specialization: "Scientific Computing with Python Certification",
+      UniversityName: "Soy Dalto",
+      specialization: "JavaScript, HTML and CSS - Advanced Level",
+      startData: "February 2022",
+      endData: "March 2022",
+    },
+    
+    {
+      UniversityName: "Pildoras Informáticas",
+      specialization: "CRUD Creation with Django, PostgreSQL, HTML and CSS",
+      startData: "August 2021",
+      endData: "December 2021",
+    },
+    {
+      UniversityName: "IBM Working Train",
+      specialization: "Python fundamentals Bootcamp at IBM",
+      startData: "February 2021",
+      endData: "June 2021",
+    },
+    {
+      UniversityName: "High Scool",
+      specialization: "Bachelor at El Portal del Norte School",
+      startData: "",
+      endData: "September 2018",
+    },
+    
+  ],
+  certifications: [
+    {
+      CompanyName: "EF SET",
+      specialization: "English level Certificate - C1 Advanced",
+      link: "https://www.efset.org/cert/QzCAX4",
       startData: "July 2022",
       endData: "July 2022",
     },
     {
-      UniversityName: "freeCodeCamp",
-      specialization: "Responsive Web Design Certification",
-      startData: "August 2021",
-      endData: "September 2021",
-    },
-    
-  ],
-  work: [
-    {
       CompanyName: "Alkemy",
-      specialization: "Job Ready Certificate - SCRUM methodology",
+      specialization: "Job Ready Certificate - SCRUM methodology (In process)",
       startData: "July 2022",
       endData: "August 2022",
     },
     {
-      CompanyName: "Freelancer",
-      specialization: "Integral management system assesory",
-      startData: "May 2021",
-      endData: "May 2022",
+      CompanyName: "freeCodeCamp",
+      specialization: "Back End Development and API's",
+      link: "https://www.freecodecamp.org/certification/Mbautista/back-end-development-and-apis",
+      startData: "July 2022",
+      endData: "July 2022",
     },
     {
-      CompanyName: "Arcor Group",
-      specialization: "Enviroment, Occupattional health and safety manager",
-      startData: "February 2011",
-      endData: "April 2019",
+      CompanyName: "freeCodeCamp",
+      specialization: "Front End Development Libraries (In process)",
+      startData: "July 2022",
+      endData: "August 2022",
     },
   ],
-  skillsDescription: "Your skills here",
+  skillsDescription: "My Skills",
   skills: [
     {
       skillname: "HTML5",
@@ -126,7 +140,7 @@ let resumeData = {
     {
       name: "project1",
       description: "mobileapp",
-      imgurl: "https://via.placeholder.com/150",
+      imgurl: "images/portfolio/project.jpg",
     },
     {
       name: "project2",
