@@ -24,7 +24,7 @@ let resumeData = {
   ],
   aboutme:
     "I am currently undergoing the last stage of training as a Full Stack Web Developer and training in agile SCRUM methodologies by participating in the Alkemy project. In addition to that, I have already completed and obtained certifications in the area, and I continue studying to keep my knowledge updated.",
-  worker:"I'm a responsible and committed worker, with a systemic vision of each work environment. I think flexibility and good comunication its the key to find innovative solutions. When I encounter challenges in development, I get more excited about learning about how to solve those challenges because I know it's part of the process and facing them moves me forward.",
+  worker:"I'm a responsible and committed worker, with a systemic vision of each work environment. I think flexibility and good comunication its the key to find innovative solutions. When I encounter challenges in development, I get more excited about learning how to solve those challenges because I know it's part of the process and facing them moves me forward.",
   hobbies: "In my free time I love to edit videos and take photos, have a good time outside with my family. Some day in the future I would like to travel the world programming for companies in other countries.",
   address: "Buenos Aires, Argentina",
   website: "",
