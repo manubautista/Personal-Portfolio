@@ -1,6 +1,7 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
 import AlertForm from "./AlertForm";
+import EmailSender from "./EmailSender";
 
 const ContactForm = () => {
   return (
@@ -31,6 +32,7 @@ const ContactForm = () => {
             resetForm();
             console.log(JSON.stringify(values, null, 2));
             setSubmitting(false);
+            EmailSender(values);
           }, 400);
         }}
       >

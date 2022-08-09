@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "formik": "^2.2.9",
     "react": "^16.6.0",
     "react-dom": "^16.14.0",
