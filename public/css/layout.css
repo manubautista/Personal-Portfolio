@@ -89,7 +89,7 @@ header .banner-text hr {
   width: 60%;
   margin: 18px auto 24px auto;
   border-color: #2f2d2e;
-  border-color: rgba(150, 150, 150, 0.1);
+  border-color: rgba(150, 150, 150, 0.906);
 }
 
 /* header social links */
@@ -108,7 +108,29 @@ header .social li a {
   color: #fff;
 }
 header .social li a:hover {
-  color: #00cccc;
+  background: linear-gradient(270deg, #ad1ee2, #4a3dfd, #28b1ff);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: AnimationName 2s ease infinite;
+  -moz-animation: AnimationName 2s ease infinite;
+  animation: AnimationName 2s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 
 /* scrolldown link */
@@ -132,7 +154,7 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-  color: #00cccc;
+  color: #0063cc;
 }
 
 /* primary navigation
@@ -203,7 +225,29 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #00cccc;
+  background: linear-gradient(270deg, #ad1ee2, #4a3dfd, #28b1ff);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: AnimationName 2s ease infinite;
+  -moz-animation: AnimationName 2s ease infinite;
+  animation: AnimationName 2s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 
 /* ------------------------------------------------------------------ */
@@ -298,8 +342,30 @@ ul#nav li.current a {
   transition: 0.5s;
 }
 #cert h3:hover {
-  color: #00cccc;
   transform: scale(1.05);
+  background: linear-gradient(270deg, #ad1ee2, #4a3dfd, #28b1ff);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: AnimationName 2s ease infinite;
+  -moz-animation: AnimationName 2s ease infinite;
+  animation: AnimationName 2s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 #resume h1 {
   font: 18px/24px "Ubuntu", sans-serif;
@@ -307,7 +373,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
 }
 #resume h1 span {
-  border-bottom: 3px solid #00cccc;
+  border-bottom: 3px solid #0063cc;
   padding-bottom: 6px;
 }
 #resume h3 {
@@ -568,7 +634,11 @@ ul#nav li.current a {
 
 #contact p.lead {
   font: 18px/36px "opensans-light", sans-serif;
-  padding-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20%;
 }
 #contact .header-col {
   padding-top: 6px;
@@ -580,6 +650,8 @@ ul#nav li.current a {
   padding: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-left: 85px;
 }
 
 #contact input,
@@ -619,10 +691,30 @@ ul#nav li.current a {
   width: 65%;
 }
 #contact button.submit:hover {
-  background: #00cccc;
+  background: linear-gradient(270deg, #ad1ee2, #4a3dfd, #28b1ff);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 2s ease infinite;
+  -moz-animation: AnimationName 2s ease infinite;
+  animation: AnimationName 2s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 #contact span.required {
-  color: #00cccc;
+  color: #0063cc;
   font-size: 10px;
   margin: 0px;
 }
@@ -670,9 +762,31 @@ footer a,
 footer a:visited {
   color: #525252;
 }
-footer a:hover,
-footer a:focus {
-  color: #fff;
+footer .social-links a:hover,
+footer .social-links a:focus {
+  background: linear-gradient(270deg, #ad1ee2, #4a3dfd, #28b1ff);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: AnimationName 2s ease infinite;
+  -moz-animation: AnimationName 2s ease infinite;
+  animation: AnimationName 2s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 
 /* social links */
@@ -686,7 +800,6 @@ footer .social-links li {
   margin: 0;
   padding: 0;
   margin-left: 42px;
-  color: #00cccc;
 }
 
 footer .social-links li:first-child {
@@ -720,5 +833,5 @@ footer .social-links li:first-child {
   border-radius: 100%;
 }
 #go-top a:hover {
-  background-color: #00cccc;
+  background-color: #0063cc;
 }

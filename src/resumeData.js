@@ -4,7 +4,7 @@ let resumeData = {
   linkedinId: "Your LinkedIn Id",
   skypeid: "Your skypeid",
   roleDescription:
-    "Every day I try to gain new knowledge and take on challenges to put it into practice. I like the team work to enrich my professional and personal development.",
+    "  Every day I try to gain new knowledge and take on challenges to put it into practice.      I like the team work to enrich my professional and personal development.",
   socialLinks: [
     {
       name: "linkedin",
