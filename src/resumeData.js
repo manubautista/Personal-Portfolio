@@ -135,29 +135,37 @@ let resumeData = {
       skillname: "MySQL",
       skill_img: '../images/Skills/mysql.png'
     },
+    {
+      skillname: "Firebase",
+      skill_img: '../images/Skills/firebase.png',
+    }
   ],
   portfolio: [
     {
       name: "VILA POINT 💪🏽",
       description: "GYM page where a potential client can see the services offered.",
+      tecnologies: "NicePage🅿️ - React⚛",
       link: "https://vilapoint.netlify.app/",
       imgurl: "./images/projects/vp.png",
     },
     {
       name: "ALKEMY WALLET 💸",
       description: "A simple CRUD rest API for managing personal incomes and expenses.",
-      link: "https://github.com/manubautista/alkemy-wallet-2.0",
+      tecnologies: "Firebase🔥- React ⚛",
+      link: "https://alkemywallet.netlify.app/",
       imgurl: "./images/projects/aw.png",
     },
     {
       name: "CODDE IT 👾",
       description: "Blog with authentication system and CRUD, try to create and account and post something!",
+      tecnologies: "Django🐍 - Handlebars🥸",
       link: "http://coddeit.pythonanywhere.com/",
       imgurl: "./images/projects/ci.png",
     },
     {
       name: "WORK IN PROGRESS 👨🏻‍💻",
       description: "You can check out my Github meanwhile.",
+      tecnologies: "",
       link: "https://github.com/manubautista",
       imgurl: "./images/projects/loading.gif",
     },
