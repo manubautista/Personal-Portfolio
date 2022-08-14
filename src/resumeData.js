@@ -96,7 +96,8 @@ let resumeData = {
     },
     {
       CompanyName: "freeCodeCamp",
-      specialization: "Front End Development Libraries (In process)",
+      specialization: "Front End Development Libraries",
+      link: "https://www.freecodecamp.org/certification/Mbautista/front-end-development-libraries",
       startData: "July 2022",
       endData: "August 2022",
     },
