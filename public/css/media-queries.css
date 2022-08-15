@@ -14,7 +14,7 @@
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
+      font: 90px/1.1em "Righteous", sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
@@ -29,7 +29,7 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 90px/1.1em "Righteous", sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
@@ -121,9 +121,6 @@
       text-shadow: none;
       color: transparent;
 
-      position: relative;
-      top: 0px;
-      right: 30px;
    }
 
 	#nav-wrap > a:before,
@@ -191,7 +188,7 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { font: 90px/1.1em "Righteous", sans-serif;}
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
@@ -216,13 +213,11 @@
    /* About Section
    -------------------------------------------------------------------- */
    #about .profile-pic { display: none; }
-   #about .download .button {
+   #about .main-col p{ 
       width: 100%;
-      height: 100%;
-      text-align: center;
-      padding: 15px 20px;
-   }
-   #about .main-col { padding-right: 30px; }
+      display: inline;
+    }
+   
 
 
    /* Resume Section
@@ -239,42 +234,11 @@
    .bars { width: 100%; }
 
 
-   /* Call To Action Section
-   /* ----------------------------------------------------------------- */
-   #call-to-action { text-align: center; }
-   #call-to-action h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }
-   #call-to-action h1 span { display: block; }
-   #call-to-action .header-col h1:before { content: none; }
-   #call-to-action p { font-size: 15px; }
-
-
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
-
-   /* Testimonials Section
-   ----------------------------------------------------------------------- */
-   #testimonials .text-container { text-align: center; }
-   #testimonials h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }
-   #testimonials h1 span { display: block; }
-   #testimonials .header-col h1:before { content: none; }
-   #testimonials blockquote { padding-bottom: 24px; }
-   #testimonials blockquote p {
-      font-size: 20px;
-      line-height: 42px;      
-   }
 
    /* Control Nav */
    .flex-control-nav {
@@ -285,20 +249,15 @@
 
    /* contact Section
    ----------------------------------------------------------------------- */
-   #contact { padding-bottom: 66px; }
-   #contact .section-head { margin-bottom: 12px; }
-   #contact .section-head h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;            
-      text-align: center;   
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }  
-   #contact h1 span { display: block; }
-   #contact .header-col { padding-top: 0; }
-   #contact .header-col h1:before { content: none;	}
-   #contact .section-head p.lead { text-align: center;}
+   #contact { padding-bottom: 66px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0px;
+   }
 
-   /* form */
+
+   /* form
    #contact label {
       float: none;
       width: 100%;
@@ -314,7 +273,7 @@
       width: 100%;
       margin-left: 0;
    }
-
+ */
 
    /* footer
    ------------------------------------------------------------------------ */
@@ -346,13 +305,13 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
-   #nav-wrap ul#nav { width: auto; float: none; }
+
 
    /* header styles
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font: 90px/1.1em "Righteous", sans-serif;     
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
