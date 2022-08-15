@@ -251,9 +251,10 @@
    ----------------------------------------------------------------------- */
    #contact { padding-bottom: 66px;
       display: flex;
+      width: 90%;
       justify-content: center;
       align-items: center;
-      margin-left: 0px;
+      margin-left: 0%;
    }
 
 
