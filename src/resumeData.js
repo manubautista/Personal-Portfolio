@@ -117,8 +117,17 @@ let resumeData = {
       skill_img: '../images/Skills/js.png'
     },
     {
+      skillname: "Python",
+      skill_img: '../images/Skills/python.png'
+    },
+
+    {
       skillname: "NodeJS",
       skill_img: '../images/Skills/nodejs.png'
+    },
+    {
+      skillname: "Express",
+      skill_img: "../images/Skills/express.png",
     },
     {
       skillname: "React",
@@ -128,18 +137,19 @@ let resumeData = {
       skillname: "Redux",
       skill_img: '../images/Skills/redux.png'
     },
+    
     {
-      skillname: "Python",
-      skill_img: '../images/Skills/python.png'
-    },
-    {
-      skillname: "MySQL",
-      skill_img: '../images/Skills/mysql.png'
+      skillname: "phpMyadmin",
+      skill_img: '../images/Skills/phpmy.png'
     },
     {
       skillname: "Firebase",
       skill_img: '../images/Skills/firebase.png',
-    }
+    },
+    {skillname: "tailwind",
+    skill_img: "../images/Skills/tailwind.png"},
+    {skillname: "git",
+    skill_img: "../images/Skills/git.png"}
   ],
   portfolio: [
     {
