@@ -147,11 +147,19 @@ let resumeData = {
       skill_img: '../images/Skills/firebase.png',
     },
     {skillname: "tailwind",
-    skill_img: "../images/Skills/tailwind.png"},
+    skill_img: "../images/Skills/tailwind.png"
+    },
     {skillname: "git",
     skill_img: "../images/Skills/git.png"}
   ],
   portfolio: [
+    {
+      name: "SOUND MARKET 🔊",
+      description: "Ecommerce where you can see different products and add them to the cart system.",
+      tecnologies: "Next.JS🔼 - React⚛",
+      link: "https://soundmarket.vercel.app/",
+      imgurl: "./images/projects/sm.png",
+    },
     {
       name: "VILA POINT 💪🏽",
       description: "GYM page where a potential client can see the services offered.",
@@ -167,7 +175,7 @@ let resumeData = {
       imgurl: "./images/projects/aw.png",
     },
     {
-      name: "CODDE IT 👾",
+      name: "CODDE IT ✏️",
       description: "Blog with authentication system and CRUD, try to create and account and post something!",
       tecnologies: "Django🐍 - Handlebars🥸",
       link: "http://coddeit.pythonanywhere.com/",
