@@ -545,6 +545,8 @@ ul#nav li.current a {
   margin-left: -15px;
   margin-top: -15px;
 }
+.dont-wrap a{
+}
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
 }

@@ -192,13 +192,13 @@ let resumeData = {
       imgurl: "./images/projects/ci.png",
       repourl: "https://github.com/manubautista/Codde-IT"
     },
-    {
-      name: "WORK IN PROGRESS 👨🏻‍💻",
-      description: "You can check out my Github meanwhile.",
-      tecnologies: "",
-      link: "https://github.com/manubautista",
-      imgurl: "./images/projects/loading.gif",
-    },
+    // {
+    //   name: "WORK IN PROGRESS 👨🏻‍💻",
+    //   description: "You can check out my Github meanwhile.",
+    //   tecnologies: "",
+    //   link: "https://github.com/manubautista",
+    //   imgurl: "./images/projects/loading.gif",
+    // },
   ],
  
 };

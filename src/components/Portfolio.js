@@ -6,7 +6,8 @@ export default class Porfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works<br></br></h1>
+            <h1>Check Out Some of My Works<br></br>
+            You can click the github icon to go to that project repo</h1>
             <div
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"
@@ -15,7 +16,7 @@ export default class Porfolio extends Component {
                 resumeData.portfolio.map((item) => {
                   return (
                     <div className="columns portfolio-item">
-                      <a href={item.link} target="_blank">
+                      <a className='dont-wrap' href={item.link} target="_blank">
                         <div className="item-wrap">
                           <img src={`${item.imgurl}`} className="item-img" />
                           <div className="overlay">
@@ -23,8 +24,8 @@ export default class Porfolio extends Component {
                               <h5>{item.name}</h5>
                               <p>{item.description}<br/>
                               {item.tecnologies}</p>
-                              <a href={item.repourl} target="_blank">
-                                <i className="fa fa-github"></i>
+                              <a onClick={()=>{window.open(`${item.repourl}`)}} href={item.repourl} target="_blank">
+                                <i className="fa fa-github" ></i>
                               </a>
                             </div>
                           </div>
