@@ -6,7 +6,7 @@ export default class Porfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Check Out Some of My Works<br></br></h1>
             <div
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"
@@ -23,6 +23,9 @@ export default class Porfolio extends Component {
                               <h5>{item.name}</h5>
                               <p>{item.description}<br/>
                               {item.tecnologies}</p>
+                              <a href={item.repourl} target="_blank">
+                                <i className="fa fa-github"></i>
+                              </a>
                             </div>
                           </div>
                         </div>

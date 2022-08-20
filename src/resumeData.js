@@ -23,11 +23,10 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am currently undergoing the last stage of training as a Full Stack Web Developer and training in agile SCRUM methodologies by participating in the Alkemy project. In addition to that, I have already completed and obtained certifications in the area, and I continue studying to keep my knowledge updated.",
+    "I am currently undergoing the last stage of performing as a Full Stack Web Developer and training in agile SCRUM methodologies by participating in the Alkemy project. In addition to that, I have already completed and obtained certifications in the area, and I continue studying to keep my knowledge updated.",
   worker:"I'm a responsible and committed worker, with a systemic vision of each work environment. I think flexibility and good comunication its the key to find innovative solutions. When I encounter challenges in development, I get more excited about learning how to solve those challenges because I know it's part of the process and facing them moves me forward.",
   hobbies: "In my free time I love to edit videos and take photos, have a good time outside with my family. Some day in the future I would like to travel the world programming for companies in other countries.",
   address: "Buenos Aires, Argentina",
-  website: "",
   languages:[
     {
     langname: "Spanish",
@@ -154,11 +153,20 @@ let resumeData = {
   ],
   portfolio: [
     {
+      name: "NETFLIX CLONE 🍿",
+      description: "Netlix clone where you can create an account and like your favourite movies to show these in your profile!",
+      tecnologies: "Firebase🔥- React ⚛ - Tailwind ♒",
+      link: "https://netflix-by-mb.netlify.app/",
+      imgurl: "./images/projects/nc.png",
+      repourl: "https://github.com/manubautista/netflix-clone"
+    },
+    {
       name: "SOUND MARKET 🔊",
       description: "Ecommerce where you can see different products and add them to the cart system.",
       tecnologies: "Next.JS🔼 - React⚛",
       link: "https://soundmarket.vercel.app/",
       imgurl: "./images/projects/sm.png",
+      repourl: "https://github.com/manubautista/Sound-Market"
     },
     {
       name: "VILA POINT 💪🏽",
@@ -166,6 +174,7 @@ let resumeData = {
       tecnologies: "NicePage🅿️ - React⚛",
       link: "https://vilapoint.netlify.app/",
       imgurl: "./images/projects/vp.png",
+      repourl: "https://github.com/manubautista/vila-point"
     },
     {
       name: "ALKEMY WALLET 💸",
@@ -173,6 +182,7 @@ let resumeData = {
       tecnologies: "Firebase🔥- React ⚛",
       link: "https://alkemywallet.netlify.app/",
       imgurl: "./images/projects/aw.png",
+      repourl: "https://github.com/manubautista/alkemy-wallet-2.0"
     },
     {
       name: "CODDE IT ✏️",
@@ -180,6 +190,7 @@ let resumeData = {
       tecnologies: "Django🐍 - Handlebars🥸",
       link: "http://coddeit.pythonanywhere.com/",
       imgurl: "./images/projects/ci.png",
+      repourl: "https://github.com/manubautista/Codde-IT"
     },
     {
       name: "WORK IN PROGRESS 👨🏻‍💻",
