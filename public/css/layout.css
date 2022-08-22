@@ -501,6 +501,16 @@ ul#nav li.current a {
   display: block;
   cursor: pointer;
 }
+.git-icon i{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 27px;
+  color: rgba(0, 0, 0, 0.938);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(87, 87, 87);
+  
+}
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
@@ -545,8 +555,7 @@ ul#nav li.current a {
   margin-left: -15px;
   margin-top: -15px;
 }
-.dont-wrap a{
-}
+
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
 }
@@ -567,7 +576,7 @@ ul#nav li.current a {
   position: absolute;
   top: 10px;
   right: 20px;
-  font-size: 21px;
+  font-size: 27px;
   color: white;
 }
 
