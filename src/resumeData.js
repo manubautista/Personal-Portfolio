@@ -82,7 +82,7 @@ let resumeData = {
     },
     {
       CompanyName: "Alkemy",
-      specialization: "Job Ready Certificate - Full Stack JS aceleration - SCRUM methodology",
+      specialization: "Job Ready Certificate - Full Stack JS aceleration - SCRUM",
       link: "https://assets.alkemy.org/certificates/google-oauth2%7C118177069768457661746/ACCELERATION_CERTIFICATE/8eb2159f-4680-44f9-afb4-81cbb28c7f6f.pdf",
       startData: "July 2022",
       endData: "August 2022",
