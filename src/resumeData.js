@@ -40,6 +40,12 @@ let resumeData = {
   ],
   education: [
     {
+      UniversityName: "Alkemy Campus",
+      specialization: "Full Stack JS and Agile methodologies (SCRUM)",
+      startData: "July 2022",
+      endData: "August 2022",
+    },
+    {
       UniversityName: "Rest API's Development Bootcamps",
       specialization: "Working with React, Node, Express, AXIOS and Sequelize",
       startData: "April 2022",
@@ -74,18 +80,18 @@ let resumeData = {
   ],
   certifications: [
     {
+      CompanyName: "Alkemy",
+      specialization: "Job Ready - Full Stack JS Agile methodologies (SCRUM)",
+      link: "https://assets.alkemy.org/certificates/google-oauth2%7C118177069768457661746/ACCELERATION_CERTIFICATE/8eb2159f-4680-44f9-afb4-81cbb28c7f6f.pdf",
+      startData: "July 2022",
+      endData: "August 2022",
+    },
+    {
       CompanyName: "EF SET",
       specialization: "English level Certificate - C1 Advanced",
       link: "https://www.efset.org/cert/QzCAX4",
       startData: "July 2022",
       endData: "July 2022",
-    },
-    {
-      CompanyName: "Alkemy",
-      specialization: "Job Ready Certificate - Full Stack JS aceleration - SCRUM",
-      link: "https://assets.alkemy.org/certificates/google-oauth2%7C118177069768457661746/ACCELERATION_CERTIFICATE/8eb2159f-4680-44f9-afb4-81cbb28c7f6f.pdf",
-      startData: "July 2022",
-      endData: "August 2022",
     },
     {
       CompanyName: "freeCodeCamp",
