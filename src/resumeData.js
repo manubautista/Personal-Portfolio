@@ -160,6 +160,14 @@ let resumeData = {
   ],
   portfolio: [
     {
+      name: "CHAT APP 💬",
+      description: "Simple Chat where you can see the messages in real time and chat with other people connected via Google Authentication.",
+      tecnologies: "Firebase🔥- React ⚛ - Tailwind ♒",
+      link: "https://chat-mb.netlify.app/",
+      imgurl: "./images/projects/ca.png",
+      repourl: "https://github.com/manubautista/chat-app"
+    },
+    {
       name: "NETFLIX CLONE 🍿",
       description: "Netlix clone where you can create an account and like your favourite movies to show these in your profile!",
       tecnologies: "Firebase🔥- React ⚛ - Tailwind ♒",
